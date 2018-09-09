@@ -1,4 +1,4 @@
-package spoj.pot;
+package spoj.id499.pot;
 
 import java.util.Scanner;
 
