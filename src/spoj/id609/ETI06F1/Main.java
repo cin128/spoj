@@ -7,8 +7,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		double r = s.nextFloat();
-		double d = s.nextFloat();		
+		double r = s.nextDouble();
+		double d = s.nextDouble();		
 		double result=PI*(r*r-(d*d/4.0));
 		System.out.println(result);
 		s.close();		
