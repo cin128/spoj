@@ -1,8 +1,8 @@
-package spoj;
+package spoj.pot;
 
 import java.util.Scanner;
 
-public class Pot {
+public class Main {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		short n = s.nextShort();
