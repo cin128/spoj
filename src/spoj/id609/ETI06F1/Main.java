@@ -9,7 +9,7 @@ public class Main {
 		Scanner s = new Scanner(System.in);
 		double r = s.nextFloat();
 		double d = s.nextFloat();		
-		double result=PI*(r*r-d*d/4);
+		double result=PI*(r*r-(d*d/4.0));
 		System.out.println(result);
 		s.close();		
 	}
